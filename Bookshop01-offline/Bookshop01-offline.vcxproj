@@ -128,15 +128,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="backend.cpp" />
-    <ClCompile Include="Bookshop01-offline%28not used%29.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="index.html" />
-    <None Include="landing.html" />
+    <None Include="Landing.html" />
     <None Include="styles.css" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="httplib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="orignal_backend.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

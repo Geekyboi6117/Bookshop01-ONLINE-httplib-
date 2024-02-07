@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Bookshop01-offline%28not used%29.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="backend.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -25,11 +22,14 @@
   <ItemGroup>
     <None Include="index.html" />
     <None Include="styles.css" />
-    <None Include="landing.html" />
+    <None Include="Landing.html" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="httplib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="orignal_backend.txt" />
   </ItemGroup>
 </Project>
